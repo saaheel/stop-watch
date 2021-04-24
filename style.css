@@ -22,3 +22,19 @@ button {
     height: 30px;
     border-radius: 5px 5px 5px;
 }
+
+
+/* Media Query - Tablet or smaller */
+@media screen and (max-width: 100px) {
+    h1 {
+        width: 90px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    button {
+        width: 80px;
+    }
+}

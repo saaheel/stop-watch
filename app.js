@@ -15,6 +15,7 @@ function timer() {
     } else if(sec === 60){
         min++;
         mints.innerHTML = min;
+        sec = 0;
     }
 }
 
